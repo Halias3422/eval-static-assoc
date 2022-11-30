@@ -1,17 +1,21 @@
-.hero {
+.hero-title {
   text-align: center;
-}
-
-h1 {
-  font-size: 54px;
   background-color: rgba(255, 255, 255, 0.8);
   color: #1d3557;
   height: fit-content;
   border-radius: 16px;
 }
 
-h2 {
-  font-size: 34px;
+@media screen and (min-width: 481px) {
+  .hero {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 769px) {
+}
+
+@media screen and (min-width: 1201px) {
 }
 
 .articles-container {
