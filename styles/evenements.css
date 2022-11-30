@@ -7,3 +7,19 @@
 .hero-image {
   max-width: 100%;
 }
+
+.event-card {
+  margin: 1rem;
+  border-radius: 18px;
+  box-shadow: 2px 2px 10px grey;
+  padding: 1rem;
+}
+
+.event-titles {
+  text-align: center;
+}
+
+.event-image {
+  max-width: 100%;
+  border-radius: 8px;
+}
