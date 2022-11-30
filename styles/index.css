@@ -54,3 +54,24 @@ body {
   padding: 2rem;
   font-size: 1.4rem;
 }
+
+.articles-container {
+  margin: 2rem;
+}
+
+.article {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-odd {
+  background-color: #a8dadc;
+}
+
+.article-image {
+  max-width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
