@@ -1,0 +1,9 @@
+.hero {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #1d3557;
+}
+
+.hero-image {
+  max-width: 100%;
+}
