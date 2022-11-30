@@ -1,14 +1,17 @@
 .hero {
-  background-image: url("../public/city-gbceb59cae_1280.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
   text-align: center;
-  height: 70vh;
-  padding: 2rem;
-  font-size: 1.4rem;
+}
+
+h1 {
+  font-size: 54px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #1d3557;
+  height: fit-content;
+  border-radius: 16px;
+}
+
+h2 {
+  font-size: 34px;
 }
 
 .articles-container {
