@@ -24,6 +24,10 @@
   background-color: #a8dadc;
 }
 
+.article-title {
+  text-align: center;
+}
+
 .article-image {
   max-width: 100%;
   margin-top: 1rem;
@@ -57,20 +61,24 @@
     margin: auto;
     margin-top: 5vh;
     margin-bottom: 5vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 2%;
-    row-gap: 1%;
-    grid-template-rows: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .article {
+    width: 40%;
     box-shadow: 2px 2px 10px grey;
   }
 }
-
 @media screen and (min-width: 1025px) {
+  .article {
+    width: 26%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
   .article-container {
-    grid-template-columns: 1fr 1fr 1fr;
+    width: 1400px;
   }
 }
