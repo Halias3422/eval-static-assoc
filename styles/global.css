@@ -20,18 +20,24 @@ h3 {
   font-size: 20px;
 }
 
+header {
+  position: sticky;
+  top: 0;
+}
+
 /* NAVBAR */
 
 .navbar {
   background-color: #1d3557;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .menu-logo {
-  margin: auto;
+  display: block;
+  margin: 0 auto;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -39,6 +45,7 @@ h3 {
 }
 
 .menu-hamburger {
+  margin-right: 2vw;
   cursor: pointer;
 }
 
@@ -199,9 +206,10 @@ h3 {
     display: none;
   }
   .menu-content {
+    padding: 0;
     display: flex;
     flex-direction: row;
-    background-color: #1d3357;
+    background-color: #1d3557;
   }
 
   .article-link {
