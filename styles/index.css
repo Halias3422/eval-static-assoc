@@ -81,6 +81,15 @@
   .article {
     flex: 1 1 40%;
     box-shadow: 2px 2px 10px grey;
+    transition: background-color 0.5s;
+  }
+
+  .article:hover {
+    background-color: #a8dadc;
+  }
+
+  .article-odd {
+    background-color: white;
   }
 }
 
