@@ -158,7 +158,8 @@ header {
   }
 
   .article-container {
-    width: 100%;
+    width: 98%;
+    margin: auto;
     margin-top: 5vh;
     margin-bottom: 5vh;
     display: flex;
