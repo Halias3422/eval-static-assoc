@@ -182,18 +182,6 @@ header {
 }
 
 @media screen and (min-width: 1025px) {
-  h1 {
-    font-size: 64px;
-  }
-
-  h2 {
-    font-size: 46px;
-  }
-
-  h3 {
-    font-size: 36px;
-  }
-
   .menu-container {
     display: flex;
     align-items: center;
